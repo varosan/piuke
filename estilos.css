@@ -1,0 +1,495 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding-top: 5px;
+}
+
+
+
+header#cabecera {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:15px;
+	margin: auto;
+
+}
+
+div#logo {
+    width: 97px;
+    height: 102px;
+    background-image:url(img/logo.png);
+    background-size: cover;
+}
+
+div#menu {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+
+div#menu a {
+    text-decoration: none;
+    font-family:'Raleway', sans-serif;
+    font-weight: 500;
+    color: #344d2a;
+    transition: all 0.2s ease;
+    text-align: center;
+    width: 30%;
+ 
+}
+
+div#menu a:hover {
+    padding-top: 10px;
+}
+
+
+
+header#cabecera a#button {
+    display: none;
+
+}
+
+div#menu-b {
+    display: none;
+}
+
+section#slider {
+    width: 100%;
+    height: 700px;
+    background-image:url(img/slider.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#slider h1{
+    color: white;
+    font-size:50pt;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 20px;
+    padding-top:200px;
+
+}
+
+section#slider p {
+    color: white;
+    font-size:20pt;
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    padding-bottom: 50px;
+
+}
+div#botones {
+    width: 700px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+div#botones a {
+    width: 250px;
+    height: 50px;
+    background-color:#dfd383;
+    display: block;
+    border-radius:50px;
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: none;
+    color: #344d2a;
+    font-family:'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+section#presentacion {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+
+section#presentacion h2 {
+    color: #8a9056;
+    font-size:40pt;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 20px;
+}
+
+
+section#presentacion p {
+    color: #8a9056;
+    font-size:18pt;
+    text-align: center;
+    font-family: 'raleway', san-serif;
+    margin-bottom: 20px;
+}
+section#search {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    font-family: 'raleway', san-serif;
+    background-color: #dfd383;
+    display: block;
+    text-align: center;
+
+}
+input#lista {
+    width: 300px;
+    height: 30px;
+    display: block;
+    font-family: 'raleway', san-serif;
+    text-align: center;
+}
+
+section#te {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+h2 {
+    color: #8a9056;
+    font-size:40pt;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 20px;
+    
+}
+section#te .box-te {
+    width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section#te .box-te {
+    width: 30%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 50px;
+
+
+}
+section#te .box-te h3 {
+    text-align: center;
+    color: #344d2a;
+    font-size:18pt;
+    font-family: 'raleway', san-serif;
+    margin-bottom: 20px;
+}
+
+section#te .box-te p {
+    color: #8a9056;
+    font-size:14pt;
+    text-align: center;
+    font-family: 'raleway', san-serif;
+    margin-bottom: 20px;
+}
+section#te .box-te img {
+  display: block;
+  margin:auto;
+  width: 150px;
+}
+
+section#te .box-te button {
+    width: 250px;
+    height: 30px;
+    border-radius:50px;
+    display: block;
+    margin:auto;
+}
+
+
+section#acc {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+
+section#acc div.acc-te {
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+section#acc .acc-te h3 {
+    text-align: center;
+    color: #344d2a;
+    font-size:18pt;
+    font-family: 'raleway', san-serif;
+    margin-bottom: 20px;
+}
+
+section#acc .acc-te p {
+    color: #8a9056;
+    font-size:14pt;
+    text-align: center;
+    font-family: 'raleway', san-serif;
+    margin-bottom: 20px;
+}
+section#acc .acc-te img {
+  display: block;
+  margin:auto;
+  width: 150px;
+}
+
+section#acc .acc-te button {
+    width: 250px;
+    height: 30px;
+    border-radius:50px;
+    display: block;
+    margin:auto;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #c2bd74;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:5%;
+}
+
+footer div#volver {
+    width: 60px;
+    height: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    background:#c2bd74;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/**/
+
+div#botones {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+div#botones {
+    width: 40%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+div button {
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    background: lightcoral;
+    color: white;
+    border: none;
+}
+div button:hover {
+    background: white;
+    color: lightcoral;
+
+}
+
+div#container {
+    width:80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+div#container .cajas {
+    width: 33%;
+    height: auto;
+    background:wheat;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 10px;
+    transition: 0.5s all ease;
+}
+
+
+div#container .cajas h2 {
+    font-family: lobster;
+    text-align: center;
+    color: tomato;
+    font-size: 25pt;
+
+}
+div#container p {
+    text-align: center;
+    font-family: raleway;
+}
+
+
+
+@media (max-width:1024px) {
+    
+    div#menu {
+        display: none;
+    }
+    
+
+    header#cabecera a#button {
+        display: block;
+    
+    }
+
+    div#menu-b {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    div#menu-b a {
+        width: 100%;
+        height: 80px;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'raleway', san-serif;
+        font-family:'Raleway', sans-serif;
+        font-weight: 500;
+        color: #344d2a;
+      
+
+    }
+    section#slider {
+        width: 100%;
+        height: 700px;
+        background-image:url(img/slider.jpg);
+        background-size: cover;
+        padding-left: 5%;
+        padding-right: 5%;
+     
+    }
+    
+    section#slider h1{
+        color: white;
+        font-size:10vw;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        margin-bottom: 20px;
+        padding-top:200px;
+    
+    }
+    
+    section#slider p {
+        color: white;
+        font-size:5vw;
+        text-align: center;
+        font-family:'Raleway', sans-serif;
+        padding-bottom: 50px;
+    }
+
+    section div#botones {
+        width: 250px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    div#botones a {
+        width: 250px;
+        height: 50px;
+        margin-bottom: 5px;
+        background-color:#dfd383;
+        border-radius:50px;
+        text-align: center;
+        padding-top: 15px;
+        text-decoration: none;
+        color: #344d2a;
+        font-family:'Raleway', sans-serif;
+        font-weight: 500;
+    }
+
+    div#botones {
+        width: 80%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    
+    div button {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background: lightcoral;
+        color: white;
+        border: none;
+    }
+
+    div#container  {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    div#container .cajas {
+        width: 40%;
+        height: auto;
+        background:wheat;
+        text-align: center;
+        margin-bottom: 15px;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 10px;
+        transition: 0.5s all ease;
+        border-radius: 20px;
+
+    }
+
+    div#container .cajas img {
+        width: 120px;
+    }
+
+    footer div#volver {
+        display: none;
+    }
+    
+}
